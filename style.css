@@ -1,8 +1,13 @@
+@media screen and (min-width: 768px){}
+
 header {
     margin: 0;
     padding: 0;
 }
-
+@font-face {
+    font-family: bungee;
+    src: url(https://fonts.google.com/specimen/Bungee?preview.text_type=custom);
+  }
 .logo{
     float: left;
 }
@@ -140,8 +145,7 @@ header {
     padding-top: 5%;
 }
 
-a:hover{
+li a:hover{
     color: #10fdff;
 }
 
-@media screen and (min-width: 768px)
